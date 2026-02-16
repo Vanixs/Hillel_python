@@ -39,3 +39,16 @@ width = float(input("Ширина:"))
 perimeter = (length + width) * 2
 print("Периметр:", perimeter)
 
+#----7. Виведення числа в стовпчик
+
+number = int(input("Введіть 4-ох значне число:"))
+
+one_number = number // 1000
+two_number =(number // 100) % 10
+three_number =(number // 10) % 10
+four_number =number % 10
+
+print(one_number)
+print(two_number)
+print(three_number)
+print(four_number)
