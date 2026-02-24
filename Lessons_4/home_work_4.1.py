@@ -1,1 +1,7 @@
-original_list = [1,2,3,4,5,6,7,0,9,0,11,12,13,14,15]
+numbers = [1, 0, 13, 0, 0, 0, 5]
+
+non_zeros = [x for x in numbers if x != 0]
+zeros_count = numbers.count(0)
+result = non_zeros + [0] * zeros_count
+
+print(result)
